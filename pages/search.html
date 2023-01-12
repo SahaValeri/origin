@@ -206,6 +206,152 @@
 
         </fieldset>
 
+        <fieldset>
+
+            <legend>Price</legend>
+
+            <div>
+                <label for="price-start">from ca$</label>
+                <input type="number" min="0" max="10000" name="price-start" id="price-start">
+            </div>
+
+            <div>
+                <label for="price-finish">to ca$</label>
+                <input type="number" min="0" max="10000" name="price-finish" id="price-finish">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Year of manufacture</legend>
+
+            <div>
+                <label for="year-start">from</label>
+                <input type="number" min="1965" max="2022" name="year-start" id="year-start">
+            </div>
+
+            <div>
+                <label for="year-finish">to</label>
+                <input type="number" min="1965" max="2022" name="year-finish" id="year-finish">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Condition</legend>
+
+            <div>
+                <input type="checkbox" id="br" name="cond" value="br">
+                <label for="br">broken</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cred" name="cond" value="cred">
+                <label for="cred">in credit</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="ucl" name="cond" value="ucl">
+                <label for="ucl">uncleared</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="acc" name="cond" value="acc">
+                <label for="acc">was in an accident</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="ooo" name="cond" value="ooo">
+                <label for="ooo">not running</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Gearbox type</legend>
+
+            <div>
+                <input type="radio" id="manual" name="gearbox" value="manual">
+                <label for="manual">manual</label>
+            </div>
+            <div>
+                <input type="radio" id="automatic" name="gearbox" value="automatic">
+                <label for="automatic">automatic</label>
+            </div>
+            <div>
+                <input type="radio" id="doesn't-matter" name="gearbox" value="doesn't-matter" checked>
+                <label for="doesn't-matter">doesn't matter</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Fuel type</legend>
+
+            <div>
+                <input type="radio" id="hybrid" name="fuel-type" value="hybrid">
+                <label for="hybrid">hybrid</label>
+            </div>
+            <div>
+                <input type="radio" id="petrol" name="fuel-type" value="petrol">
+                <label for="petrol">petrol</label>
+            </div>
+            <div>
+                <input type="radio" id="gas" name="fuel-type" value="gas">
+                <label for="gas">gas</label>
+            </div>
+            <div>
+                <input type="radio" id="diesel" name="fuel-type" value="diesel">
+                <label for="diesel">diesel</label>
+            </div>
+            <div>
+                <input type="radio" id="electricity" name="fuel-type" value="electricity">
+                <label for="electricity">electricity</label>
+            </div>
+            <div>
+                <input type="radio" id="any" name="any" value="fuel-type">
+                <label for="any">any fuel</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Colour of car</legend>
+
+            <label for="car-colour">Colour</label>
+
+            <select name="car-colour" id="car-colour">
+
+                <option value="wh">white</option>
+                <option value="bl">black</option>
+                <option value="grey">grey</option>
+                <option value="sil">silver</option>
+                <option value="blue">blue</option>
+                <option value="red">red</option>
+                <option value="br">brown</option>
+                <option value="green">green</option>
+                <option value="y">yellow</option>
+                <option value="bg">beige</option>
+                <option value="or">orange</option>
+                <option value="p">purple</option>
+                <option value="gold">gold</option>
+
+            </select>
+
+        </fieldset>
+
+        <div>
+            <input type="reset" value="Reset all">
+            <input type="submit">
+        </div>
+
+        </fieldset>
+    </form>
 
 </body>
 
